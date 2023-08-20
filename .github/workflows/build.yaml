@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - dev
+      - test
     paths:
       - .github/workflows/build.yaml
       - build/*
