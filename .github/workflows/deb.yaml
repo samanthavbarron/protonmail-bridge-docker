@@ -25,9 +25,9 @@ jobs:
       - name: Set version
         id: version
         run: echo "::set-output name=version::`cat deb/VERSION`"
-      - name: Set repo
-        id: repo
-        run: echo "::set-output name=repo::${DOCKER_REPO}"
+      #- name: Set repo
+      #  id: repo
+      #  run: echo "::set-output name=repo::${DOCKER_REPO}"
       - name: Docker meta
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
