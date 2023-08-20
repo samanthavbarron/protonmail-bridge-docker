@@ -16,7 +16,7 @@ on:
 
 env:
   DOCKER_REPO: ghcr.io/samanthavbarron/protonmail-bridge
-  PLATFORMS: linux/amd64,linux/arm64/v8,linux/arm/v7,linux/riscv64
+  PLATFORMS: linux/amd64
 
 jobs:
   build:
