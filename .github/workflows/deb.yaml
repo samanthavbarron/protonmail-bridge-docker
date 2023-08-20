@@ -14,7 +14,7 @@ on:
       - deb/*
 
 env:
-  DOCKER_REPO: ghcr.io/shenxn/protonmail-bridge-dev
+  DOCKER_REPO: ghcr.io/samanthavbarron/protonmail-bridge
 
 jobs:
   deb:
