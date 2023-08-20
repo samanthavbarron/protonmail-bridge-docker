@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM docker.io/ubuntu:jammy
 LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
 
 EXPOSE 25/tcp
